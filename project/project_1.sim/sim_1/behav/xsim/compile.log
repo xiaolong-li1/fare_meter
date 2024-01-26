@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module whole_work
+INFO: [VRFC 10-311] analyzing module fare_meter
+WARNING: [VRFC 10-3380] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:89]
+WARNING: [VRFC 10-3380] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:90]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:95]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:99]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:103]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:104]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:108]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:109]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:118]
+WARNING: [VRFC 10-3380] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:119]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:122]
+WARNING: [VRFC 10-3380] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:123]
+WARNING: [VRFC 10-3380] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:126]
+WARNING: [VRFC 10-3380] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:127]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:134]
+WARNING: [VRFC 10-3380] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:135]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:138]
+WARNING: [VRFC 10-3380] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:139]
+WARNING: [VRFC 10-3380] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:142]
+WARNING: [VRFC 10-3380] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:143]
+WARNING: [VRFC 10-3380] identifier 'add_data' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:173]
+WARNING: [VRFC 10-3380] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:175]
+WARNING: [VRFC 10-3380] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:178]
+WARNING: [VRFC 10-3380] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:179]
+WARNING: [VRFC 10-3380] identifier 'add_data' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:185]
+WARNING: [VRFC 10-3380] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:187]
+WARNING: [VRFC 10-3380] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:190]
+WARNING: [VRFC 10-3380] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:191]
+WARNING: [VRFC 10-3380] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:197]
+WARNING: [VRFC 10-3380] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:198]
+INFO: [VRFC 10-311] analyzing module Decimal_Counter
+INFO: [VRFC 10-311] analyzing module mode10_IP_0
+INFO: [VRFC 10-311] analyzing module v_smg_1
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'seg' is not allowed [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:743]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'seg1' is not allowed [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:744]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'an' is not allowed [C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v:745]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/32081/Desktop/project_1/project_1.srcs/sim_1/new/fare_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fare_tb

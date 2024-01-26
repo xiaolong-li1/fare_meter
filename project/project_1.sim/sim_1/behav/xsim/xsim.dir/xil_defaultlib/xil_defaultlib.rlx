@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/32081/Desktop/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/32081/Desktop/project_1/project_1.srcs/sim_1/new/fare_tb.v,1701090285,verilog,,,,fare_tb,,,,,,,,
+C:/Users/32081/Desktop/project_1/project_1.srcs/sim_1/new/sim_srbj.v,1698757130,verilog,,,,sim_srbj,,,,,,,,
+C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/ip/mux81_0/mux81.v,1698756274,verilog,,C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/ip/mux81_0/sim/mux81_0.v,,mux81,,,,,,,,
+C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/ip/mux81_0/sim/mux81_0.v,1698756274,verilog,,C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v,,mux81_0,,,,,,,,
+C:/Users/32081/Desktop/project_1/project_1.srcs/sources_1/new/srbj.v,1701134591,verilog,,C:/Users/32081/Desktop/project_1/project_1.srcs/sim_1/new/fare_tb.v,,Decimal_Counter;fare_meter;mode10_IP_0;v_smg_1;whole_work,,,,,,,,

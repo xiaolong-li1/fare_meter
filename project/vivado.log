@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jan 26 20:03:15 2024
+# Process ID: 41836
+# Current directory: C:/Users/32081/Desktop/数字电路相关作业/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31884 C:\Users\32081\Desktop\数字电路相关作业\project_1\project_1.xpr
+# Log file: C:/Users/32081/Desktop/数字电路相关作业/project_1/vivado.log
+# Journal file: C:/Users/32081/Desktop/数字电路相关作业/project_1\vivado.jou
+# Running On: def, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/8to1/8to1.srcs/sources_1/new'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/8to1/8to1.srcs/sources_1/new'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'mux81_0' is locked:
+* IP definition 'mux81 (1.0)' for IP 'mux81_0' (customized with software release 2019.2) was not found in the IP Catalog.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1537.969 ; gain = 380.742
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-3
+Top: whole_work
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13076
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2323.398 ; gain = 435.445
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'clk_hand', assumed default net type 'wire' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:83]
+WARNING: [Synth 8-8895] 'clk_hand' is already implicitly declared on line 83 [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:92]
+WARNING: [Synth 8-6901] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:98]
+WARNING: [Synth 8-6901] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:99]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:105]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:110]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:115]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:116]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:120]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:121]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:126]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:127]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:153]
+WARNING: [Synth 8-6901] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:154]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:157]
+WARNING: [Synth 8-6901] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:158]
+WARNING: [Synth 8-6901] identifier 'mode1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:161]
+WARNING: [Synth 8-6901] identifier 'reset1' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:162]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:169]
+WARNING: [Synth 8-6901] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:170]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:173]
+WARNING: [Synth 8-6901] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:174]
+WARNING: [Synth 8-6901] identifier 'mode2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:177]
+WARNING: [Synth 8-6901] identifier 'reset2' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:178]
+WARNING: [Synth 8-6901] identifier 'add_data' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:208]
+WARNING: [Synth 8-6901] identifier 'km_data' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:208]
+WARNING: [Synth 8-6901] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:210]
+WARNING: [Synth 8-6901] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:213]
+WARNING: [Synth 8-6901] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:214]
+WARNING: [Synth 8-6901] identifier 'add_data' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:220]
+WARNING: [Synth 8-6901] identifier 'wait_data' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:220]
+WARNING: [Synth 8-6901] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:222]
+WARNING: [Synth 8-6901] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:225]
+WARNING: [Synth 8-6901] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:226]
+WARNING: [Synth 8-6901] identifier 'reset0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:232]
+WARNING: [Synth 8-6901] identifier 'mode0' is used before its declaration [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:233]
+INFO: [Synth 8-11241] undeclared symbol 'clk8', assumed default net type 'wire' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:716]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'seg' is not allowed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:779]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'seg1' is not allowed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:780]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'an' is not allowed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:781]
+INFO: [Synth 8-6157] synthesizing module 'whole_work' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:22]
+INFO: [Synth 8-6157] synthesizing module 'fare_meter' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:51]
+INFO: [Synth 8-6157] synthesizing module 'Decimal_Counter' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:631]
+INFO: [Synth 8-6157] synthesizing module 'mode10_IP_0' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:722]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:738]
+INFO: [Synth 8-6155] done synthesizing module 'mode10_IP_0' (0#1) [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:722]
+INFO: [Synth 8-6155] done synthesizing module 'Decimal_Counter' (0#1) [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:631]
+WARNING: [Synth 8-6090] variable 'reset4' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:146]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:135]
+WARNING: [Synth 8-6090] variable 'reset1' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:162]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:151]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:167]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:183]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:132]
+WARNING: [Synth 8-6090] variable 'count_clk' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:239]
+WARNING: [Synth 8-6090] variable 'clk_2' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:240]
+WARNING: [Synth 8-567] referenced signal 'people_counter' should be on the sensitivity list [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'fare_meter' (0#1) [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:51]
+INFO: [Synth 8-6157] synthesizing module 'v_smg_1' [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:770]
+INFO: [Synth 8-226] default block is never used [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:802]
+WARNING: [Synth 8-567] referenced signal 'an' should be on the sensitivity list [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:850]
+INFO: [Synth 8-6155] done synthesizing module 'v_smg_1' (0#1) [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:770]
+INFO: [Synth 8-6155] done synthesizing module 'whole_work' (0#1) [C:/Users/32081/Desktop/数字电路相关作业/project_1/project_1.srcs/sources_1/new/srbj.v:22]
+WARNING: [Synth 8-7129] Port sw[20] in module v_smg_1 is either unconnected or has no load

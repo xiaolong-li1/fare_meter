@@ -1,0 +1,127 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Nov 30 16:29:34 2023
+| Host         : def running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file whole_work_control_sets_placed.rpt
+| Design       : whole_work
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    49 |
+|    Minimum number of control sets                        |    49 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   148 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    49 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |    40 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           21 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              35 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             195 |           50 |
+| Yes          | Yes                   | No                     |              52 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------+-----------------------------+----------------------------------+------------------+----------------+--------------+
+|             Clock Signal             |        Enable Signal        |         Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------+-----------------------------+----------------------------------+------------------+----------------+--------------+
+|  f1/total_people/count6/newclk_reg_0 | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              4 |         4.00 |
+|  f1/km_price/count6/newclk_reg_0     | f1/km_price/count0/E[0]     | f1/reset1                        |                1 |              4 |         4.00 |
+|  f1/add_sim/count6/newclk_reg_0      | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              4 |         4.00 |
+|  f1/total_price/count6/newclk_reg_0  | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              4 |         4.00 |
+|  f1/wait_price/count6/newclk_reg_0   | f1/wait_price/count0/E[0]   | f1/reset2                        |                1 |              4 |         4.00 |
+|  f1/total_price/count3/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/km_price/count0/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                2 |              5 |         2.50 |
+|  f1/km_price/count1/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                1 |              5 |         5.00 |
+|  f1/km_price/count2/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                2 |              5 |         2.50 |
+|  f1/km_price/count3/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                1 |              5 |         5.00 |
+|  f1/km_price/count4/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                2 |              5 |         2.50 |
+|  f1/km_price/count5/CLK              | f1/km_price/count0/E[0]     | f1/reset1                        |                1 |              5 |         5.00 |
+|  f1/total_people/count0/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_people/count2/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_people/count1/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_people/count3/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_people/count4/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_people/count5/CLK          | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                2 |              5 |         2.50 |
+|  f1/total_price/count1/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_price/count0/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_price/count2/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/add_sim/count0/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                2 |              5 |         2.50 |
+|  f1/add_sim/count1/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/add_sim/count3/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/add_sim/count2/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/total_price/count5/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/total_price/count4/CLK           | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/add_sim/count4/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/wait_price/count0/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                2 |              5 |         2.50 |
+|  f1/wait_price/count1/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                2 |              5 |         2.50 |
+|  f1/wait_price/count2/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                2 |              5 |         2.50 |
+|  f1/wait_price/count3/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                2 |              5 |         2.50 |
+|  f1/wait_price/count4/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                1 |              5 |         5.00 |
+|  f1/wait_price/count5/CLK            | f1/wait_price/count0/E[0]   | f1/reset2                        |                2 |              5 |         2.50 |
+|  f1/add_sim/count5/CLK               | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/clk_2                            | f1/mode0_reg_n_0_[1]        | f1/reset0                        |                1 |              5 |         5.00 |
+|  f1/clk_hand                         | f1/km_price/count0/E[0]     | f1/reset1                        |                1 |              5 |         5.00 |
+|  f1/clk_hand                         | f1/total_people/count0/E[0] | f1/reset4_reg_n_0                |                1 |              5 |         5.00 |
+|  f1/clk_hand                         | f1/wait_price/count0/E[0]   | f1/reset2                        |                1 |              5 |         5.00 |
+|  f1/clk_reg_n_0                      | f1/total_price/count0/E[0]  | f1/reset3_reg_n_0                |                1 |              5 |         5.00 |
+|  nolabel_line43/divclk               |                             |                                  |                5 |              7 |         1.40 |
+|  nolabel_line43/seg_reg[7]_i_2_n_0   |                             |                                  |                2 |              7 |         3.50 |
+|  nolabel_line43/seg1_reg[7]_i_1_n_0  |                             |                                  |                2 |              7 |         3.50 |
+|  nolabel_line43/divclk               |                             | nolabel_line43/disp_bit_reg[0]_0 |                2 |              8 |         4.00 |
+|  nolabel_line43/divclk               |                             | nolabel_line43/an[7]_i_1_n_0     |                2 |              8 |         4.00 |
+|  clk0_IBUF_BUFG                      |                             | nolabel_line43/divclk_0          |                6 |             19 |         3.17 |
+|  clk0_IBUF_BUFG                      |                             |                                  |               12 |             21 |         1.75 |
+|  clk0_IBUF_BUFG                      | f1/km_counter[25]_i_2_n_0   | f1/km_counter[25]_i_1_n_0        |                8 |             26 |         3.25 |
+|  clk0_IBUF_BUFG                      | f1/wait_counter[25]_i_2_n_0 | f1/wait_counter[25]_i_1_n_0      |                8 |             26 |         3.25 |
++--------------------------------------+-----------------------------+----------------------------------+------------------+----------------+--------------+
+
+

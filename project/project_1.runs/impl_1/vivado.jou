@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Nov 30 16:28:48 2023
+# Process ID: 82324
+# Current directory: C:/Users/32081/Desktop/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log whole_work.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source whole_work.tcl -notrace
+# Log file: C:/Users/32081/Desktop/project_1/project_1.runs/impl_1/whole_work.vdi
+# Journal file: C:/Users/32081/Desktop/project_1/project_1.runs/impl_1\vivado.jou
+# Running On: def, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16858 MB
+#-----------------------------------------------------------
+source whole_work.tcl -notrace

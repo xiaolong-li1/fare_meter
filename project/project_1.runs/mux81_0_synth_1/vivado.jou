@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Oct 31 20:44:35 2023
+# Process ID: 7628
+# Current directory: C:/Users/admin/srbj/srbj.runs/mux81_0_synth_1
+# Command line: vivado.exe -log mux81_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux81_0.tcl
+# Log file: C:/Users/admin/srbj/srbj.runs/mux81_0_synth_1/mux81_0.vds
+# Journal file: C:/Users/admin/srbj/srbj.runs/mux81_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux81_0.tcl -notrace
